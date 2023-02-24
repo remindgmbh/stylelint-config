@@ -14,7 +14,7 @@
   "dependencies": {
     "stylelint-config-standard-scss": "^7.0.1",
     "stylelint-config-standard-vue": "^1.0.0",
-    "stylelint-prettier": "^2.0.0"
+    "stylelint-prettier": "^3.0.0"
   },
   "peerDependencies": {
     "prettier": "^2.8.4",
