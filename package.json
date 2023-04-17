@@ -12,7 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "stylelint-config-standard-scss": "^7.0.1",
+    "stylelint-config-standard-scss": "^8.0.0",
     "stylelint-config-standard-vue": "^1.0.0",
     "stylelint-prettier": "^2.0.0"
   },
