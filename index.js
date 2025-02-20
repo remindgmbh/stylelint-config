@@ -1,3 +1,4 @@
+/** @type {import('stylelint').Config} */
 module.exports = {
     extends: [
         'stylelint-config-standard-scss',
@@ -7,6 +8,8 @@ module.exports = {
     rules: {
         'at-rule-no-unknown': null,
         'scss/at-rule-no-unknown': true,
+        'declaration-property-value-no-unknown': null,
+        'scss/declaration-property-value-no-unknown': true,
         'prettier/prettier': [
             true,
             {
