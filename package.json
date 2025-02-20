@@ -1,6 +1,6 @@
 {
   "name": "@remindgmbh/stylelint-config",
-  "version": "1.0.2",
+  "version": "0.0.0-development",
   "author": "David Mellen <d.mellen@remind.de>",
   "license": "BSD-3-Clause",
   "main": "index.js",
