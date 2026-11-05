@@ -5,18 +5,18 @@ module.exports = {
         'stylelint-config-standard-vue/scss',
         'stylelint-config-prettier-scss',
     ],
+    plugins: ['stylelint-prettier'],
     rules: {
         'at-rule-no-unknown': null,
-        'scss/at-rule-no-unknown': true,
         'declaration-property-value-no-unknown': null,
-        'scss/declaration-property-value-no-unknown': true,
         'prettier/prettier': [
             true,
             {
-                singleQuote: true,
                 semi: false,
+                singleQuote: true,
             },
         ],
+        'scss/at-rule-no-unknown': true,
+        'scss/declaration-property-value-no-unknown': true,
     },
-    plugins: ['stylelint-prettier'],
 }
